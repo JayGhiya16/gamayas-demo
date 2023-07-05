@@ -1,8 +1,22 @@
+/* .App {
+  text-align: center;
+} */
+
 .App {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
   text-align: center;
 }
 
-.App-logo {
+body {
+  padding: 0;
+  margin: 0;
+}
+
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -35,4 +49,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */

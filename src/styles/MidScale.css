@@ -1,0 +1,277 @@
+/* import digitaldomain from '../assets/digitaldomain.jpg'; */
+#firstComponent{
+   min-height: 80%;
+    width: 100%;
+    display: flex;
+    /* margin: 5%; */
+    margin-top: 5%;
+    justify-content: center;
+    align-items: center;
+}
+#firstComponent-section{
+    min-height: 80%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#firstComponent-section-heading{
+    font-weight: 600;
+    font-size: 1.5rem;
+    padding: 1%;
+}
+#firstComponent-section-content1{
+    text-align: center;
+    font-weight: 500;
+    padding: 1%;
+}
+#firstComponent-section-content2{
+    text-align: center;
+}
+#firstComponent-twoSection{
+    display: flex;
+   min-height: 70%;
+    align-items: center;
+}
+.individualSection{
+    width: 50%;
+    /* padding: 2%; */
+    padding-left: 2%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    min-height: 100%;
+}
+.individualSection-upperbox{
+   min-height: 50%;
+    background: linear-gradient(to right,#00154cc4 50%,#8c00008f) 0 0/cover,url(https://www.janbaskdigitaldesign.com/assets21/webpimages/office-large.webp) center/cover;
+    background-size: cover;
+    background-position: 10%;
+    margin-bottom: 2%;
+    padding:2%;
+    /* background: linear-gradient(to-right,#e66465,50%, #9198e5); */
+}
+/* firstHalfIndividualSection{
+    background: linear-gradient(to-right,#e66465, #9198e5);
+} */
+.individualSection-lowerbox{
+   min-height: 50%;
+}
+.firstHalfIndividualSection-box1{
+    color: white;
+    line-height: 150%;
+    font-weight: 500;
+}
+.firstHalfIndividualSection-box2{
+    color: white;
+    line-height: 120%;
+}
+@media (max-width: 900px){
+    #firstComponent{
+        min-height: 60vh;
+    }
+    #firstComponent-twoSection{
+        flex-direction: column;
+    }
+    .individualSection{
+        width: 80%;
+    }
+}
+
+
+
+
+
+
+/* Second Part */
+#secComponent{
+    display: flex;
+   min-height: 90vh;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.secFirst{
+   min-height: 100%;
+    width:50%;
+    background-image: url(../assets/realestate2.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+}
+
+.secFirst div{
+    text-align: left;
+    width: 40%; 
+    min-height: 20%;
+    color: white;
+    background-color: brown;
+    padding:4%;
+    size: 15px;
+    /* font-size: 1rem; */
+    font-family: sans-serif;
+}
+
+.secSecond{
+    width:50%;
+   min-height:100%;
+    background-color: #052f43;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.secSecondDiv{
+    width:80%;
+   min-height:80%;
+}
+
+.secSecondDiv-box1{
+    color:white;
+    font-size: 1.7rem;
+    font-weight: 600;
+    line-height: 2.5rem;
+    text-align: left;
+    margin-bottom: 5%;
+}
+
+.secSecondDiv-box2{
+    display:flex;
+    margin:8px;
+    margin-top: 4%;
+}
+
+.secSecondDiv-box2-box1{
+    width:20%;
+    display:flex;
+}
+
+.secSecondDiv-box2-box1 img{
+   width:4rem;
+  height:4rem;
+}
+
+.secSecondDiv-box2-box2{
+   display: flex;
+   flex-direction: column;
+   width:80%;
+}
+
+.secSecondDiv-box2-box2 div{
+    text-align: left;
+}
+
+.secSecondDiv-box3{
+    padding-top: 7%;
+}
+
+/* problem */
+/* .secSecondTitle{
+    margin: 1em;
+}
+
+.secSecondComponent{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: left;
+} */
+
+
+
+
+#agentAbout{
+   height: 100vh;
+    /* width: 100vw; */
+}
+#agentAboutContainer{
+    /* margin: 10%; */
+    background-image: url(../assets/meeting.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 100%;
+    width: 100%;
+    opacity: 0.8;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+#divBG{
+    min-height: 100%;
+    width: 50%;
+    /* border-radius: 50%; */
+    background-color: #E7B10A;
+    /* margin: 5%; */
+    position: relative;
+    color: white;
+    padding: 1%;
+}
+#divSection h2{
+    font-size: 2rem;
+}
+#divSection p{
+    font-size: 0.8rem;
+}
+#agentAboutButton-div{
+    background-color:#898121;
+    width: 30%;
+    padding: 1%;
+    border-radius: 10% / 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: #059674;
+    font-size: 1rem;
+}
+#agentAboutButton{
+    color: #4C4B16;
+    margin: 1%;
+}
+
+
+
+@media (max-width: 900px){
+    #firstComponent{
+        margin-bottom: 4%;
+    }
+    #secComponent{
+        /* min-height: 200%; */
+        flex-direction: column;
+    }
+    .secFirst{
+        height: 35rem;
+        width: 100%;
+    }
+    .secFirst div{
+        font-size: 1rem;
+    }
+    .secSecond{
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 900px){
+    #agentAbout{
+        height: 60vh;
+    }
+    #agentAboutContainer{
+        
+        background-position: 50% 20%;
+    }
+}
+@media (max-width: 550px){
+    #agentAbout{
+        height: 40vh;
+    }
+    #agentAboutContainer{
+        
+        font-size: 7px;
+    }
+    #agentAboutButton-div{
+        width: 40%;
+    }
+}

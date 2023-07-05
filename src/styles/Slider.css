@@ -1,0 +1,11 @@
+#sliderComponent1{
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#sliderComponent1-box{
+    width: 70%;
+    height: 90%;
+}
