@@ -27,7 +27,8 @@ body{
     font-weight: 700;
     line-height: 42px;
     min-height: 30%;
-    color: rgb(106, 92, 92);
+    /* color: rgb(106, 92, 92); */
+    color: white;
   }
   
   .headerContainer p {

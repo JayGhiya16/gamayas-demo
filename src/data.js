@@ -226,7 +226,7 @@ let data = {
                         h1:'Striving Consistency',
                         h2:"To keep your visitors' attention on your brand, we work on making it appear unique, consistent, and not repetitive.",
                     }
-                }
+                },
             },
             img:realestateimg5,
         },
@@ -414,8 +414,8 @@ let data = {
                         h2:"To keep your visitors' attention on your brand, we work on making it appear unique, consistent, and not repetitive.",
                     }
                 },
-                img:realestateimg5,
-            }
+            },
+            img:realestateimg5,
         },
         section8:{
             h1:'Get More Students Enrollment with Interactive Educational Web Designs',
@@ -466,7 +466,7 @@ let data = {
 
 
 
-
+    
 
 
 
@@ -598,8 +598,8 @@ let data = {
                         h2:"To keep your clients' interest, our finest IT website designs firm focuses on developing a brand that is distinct, consistent, and non-repetitive. We conduct extensive study to determine the traits that may be a step.",
                     }
                 },
-                img:eduimg88,
-            }
+            },
+            img:eduimg88,
         },
         section8:{
             h1:'Get Best IT Website Designs that Drive Your Client’s Web Engagement & Experience!   ',
@@ -782,8 +782,8 @@ let data = {
                         h2:"To keep your visitors' attention on your organisation, our healthcare design firm works on developing a brand that is distinct, consistent, and exclusive. We do research to uncover the aspects that will offer you a competitive advantage in your industry.",
                     }
                 },
-                img:eduimg88,
-            }
+            },
+            img:eduimg88,
         },
         section8:{
             h1:'Our Healthcare Website Designs Fetches Massive Engagement & Conversion!',

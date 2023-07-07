@@ -31,7 +31,7 @@ export default function MidScale2({data}) {
 
                     <div className='midScale2-firstComponent-box3-line1-box1'>
                         <div className='midScale2-firstComponent-box3-line1-box1-img'>
-                            <img src={data.section7.h3.h1.h1.img} alt="" />
+                            <img style={{maxWidth:'80%',maxHeight:'80%',}} src={data.section7.h3.h1.h1.img} alt="" />
                         </div>
                         <div className='midScale2-firstComponent-box3-line1-box1-div'>
                             <div className='midScale2-firstComponent-box3-line1-box1-div-div'>{data.section7.h3.h1.h1.h1}</div>
@@ -41,7 +41,7 @@ export default function MidScale2({data}) {
 
                     <div className='midScale2-firstComponent-box3-line1-box2'>
                     <div className='midScale2-firstComponent-box3-line1-box1-img'>
-                            <img src={data.section7.h3.h1.h2.img} alt="" />
+                            <img style={{maxWidth:'80%',maxHeight:'80%',}} src={data.section7.h3.h1.h2.img} alt="" />
                         </div>
                         <div className='midScale2-firstComponent-box3-line1-box1-div'>
                             <div className='midScale2-firstComponent-box3-line1-box1-div-div'>{data.section7.h3.h1.h2.h1}</div>
@@ -51,7 +51,7 @@ export default function MidScale2({data}) {
 
                     <div className='midScale2-firstComponent-box3-line1-box3'>
                     <div className='midScale2-firstComponent-box3-line1-box1-img'>
-                            <img src={data.section7.h3.h1.h3.img} alt="" />
+                            <img style={{maxWidth:'80%',maxHeight:'80%',}} src={data.section7.h3.h1.h3.img} alt="" />
                         </div>
                         <div className='midScale2-firstComponent-box3-line1-box1-div'>
                             <div className='midScale2-firstComponent-box3-line1-box1-div-div'>{data.section7.h3.h1.h3.h1}</div>
@@ -65,7 +65,7 @@ export default function MidScale2({data}) {
 
                     <div className='midScale2-firstComponent-box3-line1-box1'>
                         <div className='midScale2-firstComponent-box3-line1-box1-img'>
-                            <img src={data.section7.h3.h2.h1.img} alt="" />
+                            <img style={{maxWidth:'80%',maxHeight:'80%',}} src={data.section7.h3.h2.h1.img} alt="" />
                         </div>
                         <div className='midScale2-firstComponent-box3-line1-box1-div'>
                             <div className='midScale2-firstComponent-box3-line1-box1-div-div'>{data.section7.h3.h2.h1.h1}</div>
@@ -85,7 +85,7 @@ export default function MidScale2({data}) {
 
                     <div className='midScale2-firstComponent-box3-line1-box3'>
                     <div className='midScale2-firstComponent-box3-line1-box1-img'>
-                            <img src={data.section7.h3.h2.h3.img} alt="" />
+                            <img style={{maxWidth:'80%',maxHeight:'80%',}} src={data.section7.h3.h2.h3.img} alt="" />
                         </div>
                         <div className='midScale2-firstComponent-box3-line1-box1-div'>
                             <div className='midScale2-firstComponent-box3-line1-box1-div-div'>{data.section7.h3.h2.h3.h1}</div>
