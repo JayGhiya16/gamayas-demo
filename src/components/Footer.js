@@ -84,8 +84,12 @@
 
 
 
+
+
+
+import gamay from '../assets/gamay.png';
 import React from 'react'
-import './Footer.scss'
+import '../styles/Footer.css'
 
 const Footer = () => {
   return (
@@ -166,7 +170,7 @@ const Footer = () => {
           <div class="row">
             <div class="col-md-4">
               <div class="logo">
-                <img src="/images/gamay.png" alt="" />
+                <img src={gamay} alt="" />
               </div>
               <div class="address">
                 <p>GAMAYAS Plot No: 1,AP colony, Mallapur, Hyderabad PIN:-500076. <strong>Phone</strong>: +917801073175, +917801073176</p>

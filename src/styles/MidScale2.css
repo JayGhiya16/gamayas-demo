@@ -389,8 +389,12 @@
     .midScale2-secondComponent-box2-line1-box1-img img{
         width: 30%;
     }
-
-
+    .midScale2-secondComponent-box2-line1-box1-div1{
+        font-size: 1.3rem;
+    }
+    .midScale2-secondComponent-box2-line1-box1-div2{
+        font-size: 1.1rem;
+    }
     .midScale2-WDsection12{
         min-height: 50vh;
     }

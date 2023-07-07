@@ -297,12 +297,10 @@ function Navbar() {
   return (
     <>
 
-      <nav
-        class="navbar navbar-expand-lg navbar-light bg-dark bg-opacity-10 mx=4"
-      >
+      <nav className  ="navbar navbar-expand-lg navbar-dark bg-dark shadow-5-strong">
         <div className='webdesign1' class="container-fluid ">
           <a class="navbar-brand " href="/">
-            <img style={{width: "182px"}} src="/images/logo.png" alt="" />
+            <img style={{width: "182px"}} src={logoImg} alt="" />
           </a>
           <button
             class="navbar-toggler"
@@ -401,20 +399,50 @@ function Navbar() {
                   aria-labelledby="navbarDropdownMenuLink"
                 >
                   <li>
-                    <a class="dropdown-item" href="/">
-                      Action
-                    </a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="/">
-                      Another action
-                    </a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="/">
-                      Something else here
-                    </a>
-                  </li>
+                       <a class="dropdown-item" href="/reales">
+                        Real E-State Industry
+                       </a>
+                     </li>
+                     <li>
+                       <a class="dropdown-item" href="/education">
+                         Education industry
+                       </a>
+                     </li>
+                     <li>
+                       <a class="dropdown-item" href="/retail">
+                         Retail Industry
+                       </a>
+                     </li>
+                     <li>
+                       <a class="dropdown-item" href="/ecommerce">
+                         Ecommerce Industry
+                       </a>
+                     </li>
+                     <li>
+                       <a class="dropdown-item" href="/itdomain">
+                         IT Industry
+                       </a>
+                     </li>
+                     <li>
+                       <a class="dropdown-item" href="/healthcare">
+                         HealthCare Industry
+                       </a>
+                     </li>
+                     <li>
+                       <a class="dropdown-item" href="/manufactoring">
+                         Manufactoring Industry
+                       </a>
+                     </li>
+                     <li>
+                       <a class="dropdown-item" href="/financial">
+                         Financial Service Industry
+                       </a>
+                     </li>
+                     <li>
+                       <a class="dropdown-item" href="/government">
+                         Government Industry
+                       </a>
+                     </li>
                 </ul>
               </li>
               <li class="nav-item mx-4">
