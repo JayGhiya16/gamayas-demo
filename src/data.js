@@ -1,10 +1,20 @@
 import realstateImage from './assets/realestateImage.jpg';
+import digitaldomain from './assets/digitaldomain.jpg';
+import ecommercedomain from './assets/ecommercedomain.jpg';
+import mobileappdomain from './assets/mobileappdomain.jpg';
+import govtdomain from './assets/govtdomain.jpg';
+import healthcaredomain from './assets/healthcaredomain.jpg';
+import financeBannerImage from './assets/financeBannerImage.jpg';
+import manufacturingBannerImage from './assets/manufacturingBannerImage.jpg';
+import retailBannerImage from './assets/retailBannerImage.jpg';
+
 import realicon1 from './assets/real-estate-icon1.webp';
 import realicon2 from './assets/real-estate-icon2.webp';
 import realicon3 from './assets/real-estate-icon3.webp';
 import realicon4 from './assets/real-estate-icon4.webp';
 // section 2
 import realestateimg1 from './assets/real-estate-img1.webp';
+import section2image from './assets/section2-image.png';
 // section 4
 import smallMediumScaleBusiness from './assets/smallMediumScaleBusiness.png';
 import enterpriselevelrealestate from './assets/enterpriselevelrealestate.png';
@@ -137,7 +147,7 @@ let data = {
                     h2:'We offer real estate web solutions that allow you to effortlessly update, manage, and amend property, land, home, and commercial complex listings in real-time based on buyer or seller interest.',
                 },
             },
-            img:realestateimg1,
+            img:section2image,
         },
         section4:{
             h1:'We Have a Real Estate Website Design for Every Size and Purpose!',
@@ -294,7 +304,7 @@ let data = {
 
     education:{
         section1:{
-            img: eduBanner,
+            img: digitaldomain,
             h1: 'Get Educational Web Designs!',
             p: 'Creating feature-rich and modern-looking educational app and site designs that reach out to more learners and inspire them to perform desired actions',
         },
@@ -324,7 +334,7 @@ let data = {
                     h2:'Our web design education firm assists you in developing interactive Learning management systems that handle your business data, course content, and classes in a well-defined and structured way!',
                 },
             },
-            img:eduimg2,
+            img:section2image,
         },
         section4:{
             h1:'Get Unmatched Educational Website Designs for Every Campus & University!',
@@ -478,7 +488,7 @@ let data = {
 
     itdomain:{
         section1:{
-            img: ittechimgBanner,
+            img: mobileappdomain,
             h1: 'Get IT Tech Web!',
             p: 'Get a B2B IT Website design that sets your company apart from the competition, connects your message with the relevant corporate clientele, and serves as a lead generating engine.',
         },
@@ -508,7 +518,7 @@ let data = {
                     h2:'Skillfully advise corporations on the best methods to utilise IT to achieve their business objectives by exhibiting your knowledge, products, and prior achievements on the finest IT website design that is quick, useful, and actionable.',
                 },
             },
-            img:ittechimg2,
+            img:section2image,
         },
         section4:{
             h1:'Get Impactful Technology IT Web Design for Your Company!',
@@ -599,7 +609,7 @@ let data = {
                     }
                 },
             },
-            img:eduimg88,
+            img:realestateimg5,
         },
         section8:{
             h1:'Get Best IT Website Designs that Drive Your Client’s Web Engagement & Experience!   ',
@@ -662,7 +672,7 @@ let data = {
 
     healthcare:{
         section1:{
-            img: healthBanner,
+            img: healthcaredomain,
             h1: 'Get Healthcare Web Designs!',
             p: 'We try to provide custom healthcare website designs that match your objectives and help you reach the proper audiences!',
         },
@@ -692,7 +702,7 @@ let data = {
                     h2:'The online visitors want to know what kind of treatments you provide, therefore we provide them the correct information to build trust and loyalty between you two.',
                 },
             },
-            img:healthImg2,
+            img:section2image,
         },
         section4:{
             h1:'Custom Healthcare Website Design for every Size of Healthcare System',
@@ -783,7 +793,7 @@ let data = {
                     }
                 },
             },
-            img:eduimg88,
+            img:realestateimg5,
         },
         section8:{
             h1:'Our Healthcare Website Designs Fetches Massive Engagement & Conversion!',
@@ -852,7 +862,7 @@ let data = {
 
     manufactoring:{
         section1:{
-            img: manufimgBanner,
+            img: manufacturingBannerImage,
             h1: 'Get Manufacturing Web Designs!',
             p: 'A manufacturing website design that creates leads for your manufacturing company connects items with prospects. We understand the complexity of B2B and the manufacturing industry.',
         },
@@ -882,7 +892,7 @@ let data = {
                     h2:'Ensure that your supply chain management is effectively represented to your audience by using our Professional Manufacturing web design services. As a result, none of their inquiries go unanswered.',
                 },
             },
-            img:manufimg2jpg,
+            img:section2image,
         },
         section4:{
             h1:'Custom Manufacturing Websites for Any Industry Scale!',
@@ -973,7 +983,7 @@ let data = {
                     }
                 }
             },
-            img:eduimg88,
+            img:realestateimg5,
         },
         section8:{
             h1:'Our Manufactoring    Website Designs Fetches Massive Engagement & Conversion!',
@@ -1039,7 +1049,7 @@ let data = {
 // financial
     financial:{
         section1:{
-            img: financialBanner,
+            img: financeBannerImage,
             h1: 'Get Financial Web Designs!',
             p: 'We convey your vision, purpose, services, and goods to loan seekers, corporates, personal bankers, and investors like no one else with a dynamic, stylish, and well-optimized financial website design. ',
         },
@@ -1069,7 +1079,7 @@ let data = {
                     h2:`Provide your users with simple, secure, and aesthetically attractive information and infographics for services such as credit qualifying requirements and mortgage calculators for the amount you're prepared to lend.`,
                 },
             },
-            img:financialImg1,
+            img:section2image,
         },
         section4:{
             h1:'Financial Website Design Services for Companies of Any Size',
@@ -1160,7 +1170,7 @@ let data = {
                     }
                 }
             },
-            img:eduimg88,
+            img:realestateimg5,
         },
         section8:{
             h1:'Our Financial Website Designs Fetches Massive Engagement & Conversion!',
@@ -1228,7 +1238,7 @@ let data = {
 
     government:{
         section1:{
-            img: govrtBanner,
+            img: govtdomain,
             h1: 'Get Modern Government Web Designs!',
             p: 'We give an end-to-end solution for Government Website Design: Federal, State, and Local Web development and design with our seasoned government website design services.',
         },
@@ -1258,7 +1268,7 @@ let data = {
                     h2:`Our fascination design team works on minute details in public services such as commerce, education, energy, health, and human services.`,
                 },
             },
-            img:govrtImg2,
+            img:section2image,
         },
         section4:{
             h1:'Custom Government Website Designs for Federal, State, and Local Government Bodies',
@@ -1349,7 +1359,7 @@ let data = {
                     }
                 }
             },
-            img:govrtImg4,
+            img:realestateimg5,
         },
         section8:{
             h1:'Get Government Website Designs That Talk About Your Specific Purpose',
@@ -1410,7 +1420,7 @@ let data = {
     // Retail
     retail:{
         section1:{
-            img: travalBanner,
+            img: retailBannerImage,
             h1: 'Get Modern Retail Web Designs!',
             p: 'We give an best solution for Retail Website Design,Web development services.',
         },
@@ -1440,7 +1450,7 @@ let data = {
                     h2:`Our fascination design team works on minute details to have best-user exprience`,   
                 },
             },
-            img:govrtImg2,
+            img:section2image,
         },
         section4:{
             h1:'Get Impactful Technology for Retail Web Design for Your Company!',
@@ -1531,7 +1541,7 @@ let data = {
                     }
                 }
             },
-            img:govrtImg4,
+            img:realestateimg5,
         },
         section8:{
             h1:'Get Retail Website Designs That Talk About Your Specific Purpose',
@@ -1590,7 +1600,7 @@ let data = {
 
     ecommerce:{
         section1:{
-            img: ecombanner,
+            img: ecommercedomain,
             h1: 'Get Modern Ecommerce Web Designs!',
             p: 'Our ecommerce website development firm understands your business goals and produces scalable eCommerce websites and mobile apps that increase conversion rates.',
         },
@@ -1621,7 +1631,7 @@ let data = {
                     `,   
                 },
             },
-            img:govrtImg2,
+            img:section2image,
         },
         section4:{
             h1:'Ecommerce Website Development for Businesses of All Sizes!',
@@ -1712,7 +1722,7 @@ let data = {
                     }
                 }
             },
-            img:sofalaptop,
+            img:realestateimg5,
         },
         section8:{
             h1:'Get Retail Website Designs That Talk About Your Specific Purpose',

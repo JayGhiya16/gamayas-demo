@@ -297,7 +297,7 @@ function Navbar() {
   return (
     <>
 
-      <nav className  ="navbar navbar-expand-lg navbar-dark bg-dark shadow-5-strong">
+      <nav className  ="navbar navbar-expand-lg navbar-dark shadow-5-strong">
         <div className='webdesign1' class="container-fluid ">
           <a class="navbar-brand " href="/">
             <img style={{width: "182px"}} src={logoImg} alt="" />

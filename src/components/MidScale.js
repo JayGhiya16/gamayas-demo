@@ -3,6 +3,8 @@ import digitaldomain from '../assets/digitaldomain.jpg';
 import '../styles/MidScale.css';
 import secure from '../assets/secure-icon1.png';
 import smallMediumScaleBusiness from '../assets/smallMediumScaleBusiness.png';
+import smallmediumsection4 from '../assets/smallmediumsection4.jpeg';
+import smallmediumsection4_1 from '../assets/smallmediumsection4-1.jpg';
 export default function MidScale({data}) {
   return (
     <>    
@@ -14,7 +16,7 @@ export default function MidScale({data}) {
 
             <div id='firstComponent-twoSection'>
                 <div className='individualSection'>
-                    <div className='individualSection-upperbox' style={{background: `linear-gradient(to right,#00154cc4 50%,#8c00008f) 0 0/cover,url(https://www.janbaskdigitaldesign.com/assets21/webpimages/office-large.webp) center/cover`}}>
+                    <div className='individualSection-upperbox' style={{background: `linear-gradient(to right,#00154cc4 50%,#8c00008f) 0 0/cover,url(${smallmediumsection4_1}) center/cover`}}>
                         <div className='firstHalfIndividualSection'>
                             <img src={data.section4.h4.h1.img} alt=">Small or Midsize Real Estate Business" />
                             <div className='firstHalfIndividualSection-box1'>{data.section4.h4.h1.h1}</div>
@@ -38,7 +40,7 @@ export default function MidScale({data}) {
                 </div>
 
                 <div className='individualSection'>
-                    <div className='individualSection-upperbox' style={{background: `linear-gradient(to right,#00154cc4 50%,#8c00008f) 0 0/cover,url(https://www.janbaskdigitaldesign.com/assets21/webpimages/office-with.webp) center/cover`}}>
+                    <div className='individualSection-upperbox' style={{background: `linear-gradient(to right,#00154cc4 50%,#8c00008f) 0 0/cover,url(${smallmediumsection4}) center/cover`}}>
                         <div className='firstHalfIndividualSection'>
                             <img src={smallMediumScaleBusiness} alt=">Small or Midsize Real Estate Business" />
                             <div className='firstHalfIndividualSection-box1'>{data.section4.h4.h2.h1}</div>

@@ -5,6 +5,8 @@
     justify-content: center;
     align-items: center;
     margin-top: 5%;
+    padding: 0;
+    text-align:left;
 }
 .midScale2-firstComponent-box1{
     font-weight: 700;
@@ -117,6 +119,8 @@
     min-height: 110vh;
     margin-top: 3%;
     margin-bottom: 2%;
+    padding: 0;
+    text-align:left;
 }
 .midScale2-secondComponent-box{
     display: flex;
@@ -188,6 +192,8 @@
 /* third component */
 #midScale2-thirdComponent{
    min-height: 50vh;
+   padding: 0;
+   text-align:left;
 }
 #midScale2-thirdComponentDiv{
     display: flex;
@@ -240,6 +246,7 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    text-align:left;
 }
 #midScale2-forthComponent-box1{
     font-size: 1.3rem;
@@ -278,6 +285,7 @@
     // margin-top: 600px; */
     padding-top: 2%;
    min-height: 70vh;
+   text-align:left;
 }
 
 .midScale2-WDsection12Main{
@@ -426,10 +434,19 @@
     .midScale2-firstComponent-box3-line1-box1-img img{
         min-height: 30%;
     }
+    .midScale2-firstComponent-box3-line1-box1-div-div2{
+        font-size: 1.1rem;
+    }
+
+
 
     #midScale2-secondComponent{
         min-height: 60vh;
     }
+    .midScale2-secondComponent-box2-line1-box1-div2{
+        font-size: 1.2rem;
+    }
+
 
 
     /* section 12 */

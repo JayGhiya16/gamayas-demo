@@ -19,21 +19,19 @@ const Industriesbody = {
 
 export default function Home() {
   const { id } = useParams();
-  const fun={
+  const fun={ 
     backgroundImage : `url(${data[id].section1.img})`,
     backgroundRepeat:`no-repeat`,
     backgroundSize:`cover`,
     overflow: `hidden`,
     backgroundAttachment: `fixed`,
-
-
   }
   return (
 
     <div className='Industriesbody' style={Industriesbody}>
-    <Navbar/>
       <div id='homeHead'>
         <div className='industriesHome' style ={fun}>
+        <Navbar/> 
           <div className='headerContainer' >
               <h1>{data[id].section1.h1}</h1>
               <p>{data[id].section1.p}</p>

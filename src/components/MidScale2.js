@@ -7,8 +7,10 @@ import fr2 from '../assets/fr-2.webp';
 import fr3 from '../assets/fr-3.webp';
 import fr4 from '../assets/fr-4.webp';
 import fr5 from '../assets/fr-5.webp';
-import middleFrame from '../assets/middleFrame.webp';
-import bulblight from '../assets/bulblight2.webp';
+// import middleFrame from '../assets/middleFrame.webp';
+import middleFrame from '../assets/fr-1.jpg';
+// import bulblight from '../assets/bulblight2.webp';
+import bulbimage from '../assets/bulbimage.png';
 import sponsors1 from '../assets/sponsors1.webp';
 import sponsors2 from '../assets/sponsors2.webp';
 import sponsors3 from '../assets/sponsors3.webp';
@@ -183,7 +185,7 @@ export default function MidScale2({data}) {
                 <div className='midScale2-thirdComponent-box1'>
                     <div className='midScale2-thirdComponent-box1-box1'>{data.section9.h0}</div>
                     <div className='midScale2-thirdComponent-box1-img'>
-                        <img src={bulblight} alt="" />
+                        <img src={bulbimage} alt="" />
                     </div>
                 </div>
                 <div className='midScale2-thirdComponent-box2'> 

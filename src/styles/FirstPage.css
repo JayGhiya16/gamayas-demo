@@ -4,6 +4,8 @@
     align-items: center;
     justify-content: center;
     margin-top: 4%;
+    padding: 0;
+    text-align:left;
 }
 
 .sec2-firstComponent-box{
@@ -76,7 +78,7 @@
 }
 
 #sec2-firstComponent-box2 img{
-    width: 90%;
+    width: 100%;
     height: 30%;
     background-size: cover;
 }
